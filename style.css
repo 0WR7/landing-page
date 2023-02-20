@@ -1,0 +1,237 @@
+/* ta arxika pragmata */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,800&family=Raleway:ital,wght@0,400;1,100;1,600&family=Work+Sans:ital,wght@0,300;0,500;1,300;1,800&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: #1c1b1e;
+    color: #e9ddff;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mainimg {
+    width: 700px;
+    border-radius: 25px;
+    height: auto;
+}
+
+/* pithanotata prepei na kanw olo to page flex column ektos to navbar 🚩🚩🚩🚩🚩 */
+
+/* Ta panw panw */
+.headerlogo {
+    font-size: 24px;
+    font-family: "Work Sans" , serif;
+    font-style: italic;
+    font-weight: 450;
+}
+
+.banklogo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* step1 gia border hover
+    opacity: 0.8; */
+}
+
+.header:hover {
+    opacity: 1;
+    transition: .3s;
+}
+
+
+
+
+/* to hover color effect */
+ul a:hover {
+    color: red;
+    transition: .3s;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+.button, .callto {
+    color: white;
+}
+
+/* topsection */
+h1 {
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0;
+    font-family: "Work Sans" , serif;
+    color: #6650a4;
+}
+
+.topsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 20px;
+    height: 600px;
+    padding: 20px;
+    background-color: #201c2b;
+}
+
+.toptext {
+    padding: 0px;
+    max-width: 700px;
+}
+
+
+/* checkare ta exercises me ta fyta */
+.middlesection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e9ddff;
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+    
+}
+
+.card {
+    text-align: center;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: #1c1b1e;
+    color: #e9ddff;
+}
+
+/* to hover twn kartwn pithanotata na allaksw to kokkino border */
+.card:hover {
+    transform: scale(1.09);
+    border: 2px solid red;
+    transition: .2s;
+}
+
+.images {
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 8px;
+
+}
+
+.smalltext {
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+/* ta koubia */
+button {
+    border: none;
+    padding: 14px 20px;
+    border-radius: 10px;
+    color: #e9ddff;
+    font-weight: 550;
+    font-size: 18px;
+    margin-top: 18px;
+    /* From https://css.glass */
+    background: #6750a4cc;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.8px);
+    -webkit-backdrop-filter: blur(11.8px);
+    border: 1px solid rgba(102, 80, 164, 0);
+    
+}
+
+button:hover {
+    border: 1px solid #FFFFFF;
+    transition: .3s;
+}
+
+
+/* quote */
+
+.quotesection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#quoter {
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* call to action  */
+.callto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201c2b;
+    padding: 80px;
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.callcontainer {
+    display: flex;
+    background-color:#6650a4a2;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-radius: 30px;
+    gap: 10px;
+}
